@@ -10,7 +10,7 @@ Using the data available,
 - How important are the attributes in predicting popularity?  
 - Whether there are any attributes that can be tweaked to increase popularity?  
 
-### [Dataset](dataset/Spotify API.ipynb)
+### [Dataset](dataset/SpotifyFinalAPI.csv)
 Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
 
 ### [1. Data Prepartion & Exploratory Data Analysis](https://github.com/WhiskeyMaDawg/SC1015_DataScience_Project/blob/main/Data_Preparation_%26_Exploratory_Data_Analysis.ipynb)
