@@ -73,7 +73,7 @@ The **artist's popularity and danceability** can increase a song's popularity.
 ### Contributors  
 - Graciella Theodora (@gtheo07)  
 - Lee Jia Wen (@jiawen3131)
-- Lim Wan Loong (@whiskeymadawg)  
+- Lim Wan Loong (@WhiskeyMaDawg)  
 
 ### References  
 - https://developer.spotify.com/
