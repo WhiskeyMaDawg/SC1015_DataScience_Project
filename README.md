@@ -29,7 +29,7 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 - Decision Tree: R^2 and MSE improves significantly for train data but still perform poorly in the test data with similar value as other regression model.
 - Random Forest: Best result out of all the regression model, but still not very satisfactory even when we tuned to the optimal hyper-parameter using GridSearchCV.
 
-### [3. ML Technique 2: Decision Tree Classification](Decision_Tree_(Outliers_IQR).ipynb)  
+### [3. ML Technique 2: Decision Tree Classification](Decision_Tree_Classification.ipynb)  
 - One Hot Encoding performed on categorical variables as the variables were unordered
 - Popularity score of >=80 determined as popular and <80 as not popular
 - Train test split ratio of 0.2, random state = 88 to ensure better comparability of results
