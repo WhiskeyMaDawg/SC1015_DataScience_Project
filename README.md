@@ -23,7 +23,8 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 
 ### 2. ML Technique 1: Regression  
 
-### 3. ML Technique 2: Decision Tree Classification  
+### [3. ML Technique 2: Decision Tree Classification](Decision_Tree_(Outliers_IQR).ipynb)  
+
 - One Hot Encoding performed on categorical variables as the variables were unordered
 - Popularity score of >=80 determined as popular and <80 as not popular
 - Train test split ratio of 0.2, random state = 88 to ensure better comparability of results
