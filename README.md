@@ -7,8 +7,14 @@ Music streaming has been an integral part of our lives. We listen to music on ou
 
 ### Problem Definition  
 Using the data available,  
-- we would like to know what are the factors that affect a song’s popularity? 
-- What is it that the algorithm use to decide what song is popular and how popular it is? 
+- How important are the attributes in predicting popularity?  
+- Whether there are any attributes that can be tweaked to increase popularity?  
+
+### Dataset
+Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
+
+###
+
 
 
 
@@ -16,5 +22,8 @@ Using the data available,
 Description for our project  
 Explanation of how we extract the data  --> Still need to edit the content in the notebook  
 Explanation for each of our Notebooks  
-# References
+
+### References  
+- https://developer.spotify.com/
+- 
 
