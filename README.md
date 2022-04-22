@@ -13,7 +13,7 @@ Using the data available,
 ### Dataset
 Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
 
-#### Data Prepartion & Exploratory Data Analysis
+### 1. Data Prepartion & Exploratory Data Analysis
 - Recasted the categorical variables that appeared as numeric values
 - Plotly's radar plot to identify the attributes of the top 50 most popular songs
 - Word cloud to identify the most common genres
@@ -21,9 +21,9 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 - Outliers were removed using the IQR method as the popularity response variable resembled a gaussian distribution
 
 
-#### ML Technique 1: Regression  
+### 2. ML Technique 1: Regression  
 
-#### ML Technique 2: Decision Tree Classification  
+### 3. ML Technique 2: Decision Tree Classification  
 - One Hot Encoding performed on categorical variables as the variables were unordered
 - Popularity score of >=80 determined as popular and <80 as not popular
 - Train test split ratio of 0.2, random state = 88 to ensure better comparability of results
@@ -33,10 +33,10 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 
 The top three song attributes that influenced popularity: **artist popularity, energy, loudness**
 
-#### ML Technique 3: Random Forest Classification  
+### 4. ML Technique 3: Random Forest Classification  
 -https://towardsdatascience.com/3-techniques-to-avoid-overfitting-of-decision-trees-1e7d3d985a09#:~:text=Is%20your%20Decision%20Tree%20Overfitting,fails%20to%20capture%20important%20patterns.
 
-#### ML Technique 4: Kmeans Clustering
+### 5. ML Technique 4: Kmeans Clustering
 - Clusters from 1 to 40 ran and elbow plot visualised to determine the optimal number of clusters that reduces within sum of squares (WSS)
 - Cluster size of 5 chosen as it allowed for a steep decrease is WSS value
 - Songs with higher popularity have higher artist popularity
@@ -44,9 +44,17 @@ The top three song attributes that influenced popularity: **artist popularity, e
 - Songs with higher popularity also have slightly higher acousticness value
 - Songs with lower popularity has lower value of acousticness
 
-The **artist's popularity, danceability and acousticness** can increase a song's popularity.
+The **artist's popularity and danceability** can increase a song's popularity.
 
-### Conclusion and Recommendations  
+### Conclusion
+- Songs' popularity can be predicted with a prediction accuracy of **~60%**
+- To increase a song's popularity, the features of **danceability, energy and loudness** can be tweaked
+- **Artist's popularity** is still a key factor in a song's popularity
+
+### Limitations and Recommendations 
+- A song's popularity is not solely determined by these numeric attributes. Hence, other attributes like the key, mode and duration of a song can be analysed.
+- A song's popularity is also not determined only by its numeric attributes. For instance, the lyrics of a song could be what makes it popular. A deeper dive into common lyrics/ words used in popular songs can be explored.
+- Our categorical data like speechiness and liveness showed a huge class imbalance. Hence, we should increase the data set to include songs from various playlists, that can allow for a more even spread
 
 ### Contributors  
 - Graciella Theodora (@gtheo07)  
