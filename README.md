@@ -22,12 +22,12 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 
 
 ### [2. ML Technique 1: Regression](Regression_Model.ipynb)  
--R^2 measures the strength of the relationship between the model and the dependent variable on a scale of 0 to 1. The higher the R^2, the better the model.
--Mean Squared Value (MSE) tells you how close the regression line is to a set of points. The lower the MSE, the better the model.
--Univariate:  all the R^2 value were very close to 0 & MSE is close to 40 which is rather high for a popularity score ranging from 0 to 100.
--Multivariate: R^2 is close to 0 and MSE is close to 40, which is still not accurate in predicting the popularity
--Decision Tree: R^2 and MSE improves significantly for train data but still perform poorly in the test data with similar value as other regression model.
--Random Forest: Best result out of all the regression model, but still not very satisfactory even when we tuned to the optimal hyper-parameter using GridSearchCV.
+- R^2 measures the strength of the relationship between the model and the dependent variable on a scale of 0 to 1. The higher the R^2, the better the model.
+- Mean Squared Value (MSE) tells you how close the regression line is to a set of points. The lower the MSE, the better the model.
+- Univariate:  all the R^2 value were very close to 0 & MSE is close to 40 which is rather high for a popularity score ranging from 0 to 100.
+- Multivariate: R^2 is close to 0 and MSE is close to 40, which is still not accurate in predicting the popularity
+- Decision Tree: R^2 and MSE improves significantly for train data but still perform poorly in the test data with similar value as other regression model.
+- Random Forest: Best result out of all the regression model, but still not very satisfactory even when we tuned to the optimal hyper-parameter using GridSearchCV.
 
 ### [3. ML Technique 2: Decision Tree Classification](Decision_Tree_(Outliers_IQR).ipynb)  
 - One Hot Encoding performed on categorical variables as the variables were unordered
