@@ -1,4 +1,4 @@
-# SC1015 DataScience Project - Spotify Music Analysis
+# SC1015 DataScience Project - _Spotify Music Analysis_
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/90097030/164615136-60684cdc-bec6-428e-bd1c-d0afde7ac777.png">
 
