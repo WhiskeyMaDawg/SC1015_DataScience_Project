@@ -21,11 +21,15 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 - Outliers were removed using the IQR method as the popularity response variable resembled a gaussian distribution
 
 
-### [2. ML Technique 1: Regression](Regression_Model.ipynb)
-
+### [2. ML Technique 1: Regression](Regression_Model.ipynb)  
+-R^2 measures the strength of the relationship between the model and the dependent variable on a scale of 0 to 1. The higher the R^2, the better the model.
+-Mean Squared Value (MSE) tells you how close the regression line is to a set of points. The lower the MSE, the better the model.
+-Univariate:  all the R^2 value were very close to 0 & MSE is close to 40 which is rather high for a popularity score ranging from 0 to 100.
+-Multivariate: R^2 is close to 0 and MSE is close to 40, which is still not accurate in predicting the popularity
+-Decision Tree: R^2 and MSE improves significantly for train data but still perform poorly in the test data with similar value as other regression model.
+-Random Forest: Best result out of all the regression model, but still not very satisfactory even when we tuned to the optimal hyper-parameter using GridSearchCV.
 
 ### [3. ML Technique 2: Decision Tree Classification](Decision_Tree_(Outliers_IQR).ipynb)  
-
 - One Hot Encoding performed on categorical variables as the variables were unordered
 - Popularity score of >=80 determined as popular and <80 as not popular
 - Train test split ratio of 0.2, random state = 88 to ensure better comparability of results
@@ -66,6 +70,5 @@ The **artist's popularity and danceability** can increase a song's popularity.
 ### References  
 - https://developer.spotify.com/
 - https://newsroom.spotify.com/company-info/#:~:text=Today%2C%20Spotify%20is%20the%20world's,180m%20subscribers%2C%20across%20183%20markets.
-
-JiaWen is trolling
-
+- https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/mean-squared-error/#:~:text=The%20mean%20squared%20error%20(MSE,to%20remove%20any%20negative%20signs.
+- https://towardsdatascience.com/3-techniques-to-avoid-overfitting-of-decision-trees-1e7d3d985a09#:~:text=Is%20your%20Decision%20Tree%20Overfitting,fails%20to%20capture%20important%20patterns.
