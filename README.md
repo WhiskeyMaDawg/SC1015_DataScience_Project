@@ -13,7 +13,7 @@ Using the data available,
 ### Dataset
 Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
 
-### 1. Data Prepartion & Exploratory Data Analysis
+### [1. Data Prepartion & Exploratory Data Analysis](https://github.com/WhiskeyMaDawg/SC1015_DataScience_Project/blob/main/Data_Preparation_%26_Exploratory_Data_Analysis.ipynb)
 - Recasted the categorical variables that appeared as numeric values
 - Plotly's radar plot to identify the attributes of the top 50 most popular songs
 - Word cloud to identify the most common genres
