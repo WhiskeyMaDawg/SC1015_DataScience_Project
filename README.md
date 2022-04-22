@@ -3,7 +3,7 @@
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/90097030/164615136-60684cdc-bec6-428e-bd1c-d0afde7ac777.png">
 
 ### Description  
-Music streaming has been an integral part of our lives. We listen to music on our commute and even at homes. We used to listen to music on cassettes and CDs. But with the improvements in technology, we now get to listen to them in their digital formats. As music changes media from physical copies to digital albums, the music streaming industry is dominated by big companies such as spotify and apple music. These platforms often have playlist of currently popular songs and many users around the world are listening to and this is all done using their algorithm. Streaming music platforms are using data collected by consumer interaction in an effort to hone their algorithms, improve user experiences, target audiences with ads, and make overall better-informed business decisions. 
+Music streaming has been an integral part of our lives. There is a whopping 406 millions users worldwide who are using spotify for music streaming. With this amount of user counts, streaming music platforms are using data collected by consumer interaction in an effort to hone their algorithms, improve user experiences, target audiences with ads, and make overall better-informed business decisions. 
 
 ### Problem Definition  
 Using the data available,  
