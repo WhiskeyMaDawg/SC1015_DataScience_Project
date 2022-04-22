@@ -2,15 +2,15 @@
 
 <img width="850" alt="image" src="https://user-images.githubusercontent.com/90097030/164615136-60684cdc-bec6-428e-bd1c-d0afde7ac777.png">
 
-### Description  
+## Description  
 Music streaming has been an integral part of our lives. There is a whopping 406 millions users worldwide who are using spotify for music streaming. With this amount of user counts, streaming music platforms are using data collected by consumer interaction in an effort to hone their algorithms, improve user experiences, target audiences with ads, and make overall better-informed business decisions. 
 
-### Problem Definition  
+## Problem Definition  
 Using the data available,  
 - How important are the attributes in predicting popularity?  
-- Whether there are any attributes that can be tweaked to increase popularity?  
+- What are the attributes that can be tweaked to increase popularity?  
 
-### [Dataset](dataset/SpotifyAPI.ipynb)  
+## [Dataset](dataset/SpotifyAPI.ipynb)  
 Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
 
 ### [1. Data Prepartion & Exploratory Data Analysis](https://github.com/WhiskeyMaDawg/SC1015_DataScience_Project/blob/main/Data_Preparation_%26_Exploratory_Data_Analysis.ipynb)
@@ -60,22 +60,22 @@ The top three attributes that affect the popularity: **artist_popularity, energy
 
 The **artist's popularity and danceability** can increase a song's popularity.
 
-### Conclusion
+## Conclusion
 - Songs' popularity can be predicted with a prediction accuracy of **~60%**
 - To increase a song's popularity, the features of **danceability, energy and loudness** can be tweaked
 - **Artist's popularity** is still a key factor in a song's popularity
 
-### Limitations and Recommendations 
+## Limitations and Recommendations 
 - A song's popularity is not solely determined by these numeric attributes. Hence, other attributes like the key, mode and duration of a song can be analysed.
 - A song's popularity is also not determined only by its numeric attributes. For instance, the lyrics of a song could be what makes it popular. A deeper dive into common lyrics/ words used in popular songs can be explored.
 - Our categorical data like speechiness and liveness showed a huge class imbalance. Hence, we should increase the data set to include songs from various playlists, that can allow for a more even spread
 
-### Contributors  
+## Contributors  
 - Graciella Theodora (@gtheo07)  
 - Lee Jia Wen (@jiawen3131)
 - Lim Wan Loong (@WhiskeyMaDawg)  
 
-### References  
+## References  
 - https://developer.spotify.com/
 - https://newsroom.spotify.com/company-info/#:~:text=Today%2C%20Spotify%20is%20the%20world's,180m%20subscribers%2C%20across%20183%20markets.
 - https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/mean-squared-error/#:~:text=The%20mean%20squared%20error%20(MSE,to%20remove%20any%20negative%20signs.
