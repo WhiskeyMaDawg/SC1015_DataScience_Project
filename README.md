@@ -13,18 +13,26 @@ Using the data available,
 ### Dataset
 Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
 
-###
+### Exploratory Data Analysis  
 
+### ML Technique 1: Regression  
 
+### ML Technique 2: Decision Tree Classification  
 
+### ML Technique 3: Random Forest Classification  
 
-# Contributors  
-Description for our project  
-Explanation of how we extract the data  --> Still need to edit the content in the notebook  
-Explanation for each of our Notebooks  
+### ML Technique 4: Kmeans Clustering  
+
+### Conclusions  
+
+### Contributors  
+- Graciella Theodora (@gtheo07)  
+- Lee Jia Wen (@jiawen3131)
+- Lim Wan Loong (@whiskeymadawg)  
 
 ### References  
 - https://developer.spotify.com/
+- https://newsroom.spotify.com/company-info/#:~:text=Today%2C%20Spotify%20is%20the%20world's,180m%20subscribers%2C%20across%20183%20markets.
 
-Wan loong is trolling
+JiaWen is trolling
 
