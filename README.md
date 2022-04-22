@@ -13,18 +13,31 @@ Using the data available,
 ### Dataset
 Spotify stores a lot of songs data in its database. We make use of its Spotify API and the python Spotipy package to access and extract the songs data that we need in the playlist. Examples such as the song's titles, artists and numerous attributes of the songs.
 
-### Exploratory Data Analysis  
+#### Data Prepartion & Exploratory Data Analysis
+- Recasted the categorical variables that appeared as numeric values
+- Plotly's radar plot to identify the attributes of the top 50 most popular songs
+- Word cloud to identify the most common genres
+- Standard visualisation techniques (boxplot, histogram, violin plot, heatmap etc.)
+- Outliers were removed using the IQR method as the popularity response variable resembled a gaussian distribution
 
-### ML Technique 1: Regression  
 
-### ML Technique 2: Decision Tree Classification  
+#### ML Technique 1: Regression  
 
-### ML Technique 3: Random Forest Classification  
+#### ML Technique 2: Decision Tree Classification  
+- One Hot Encoding performed on categorical variables as the variables were unordered
+- Popularity score of >=80 determined as popular and <80 as not popular
+- Train test split ratio of 0.2, random state = 88 to ensure better comparability of results
+- Decision tree of depth 4, all song attributes, produced accuracy of 46%
+- Decision tree of depth 4, top three song attributes, produced accuracy of 55%
+- Decision tree of depth 6, top three song attributes, produced accuracy of 56%
+- Top three song attributes that influenced popularity: artist popularity, energy, loudness
+
+#### ML Technique 3: Random Forest Classification  
 -https://towardsdatascience.com/3-techniques-to-avoid-overfitting-of-decision-trees-1e7d3d985a09#:~:text=Is%20your%20Decision%20Tree%20Overfitting,fails%20to%20capture%20important%20patterns.
 
-### ML Technique 4: Kmeans Clustering  
+#### ML Technique 4: Kmeans Clustering  
 
-### Conclusions  
+### Conclusion and Recommendations  
 
 ### Contributors  
 - Graciella Theodora (@gtheo07)  
