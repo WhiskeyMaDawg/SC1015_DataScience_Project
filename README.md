@@ -40,14 +40,14 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 The top three song attributes that influenced popularity: **artist popularity, energy, loudness**
 
 ### [4. ML Technique 3: Random Forest Classification](Random_Forest_Classification.ipynb) 
--	Similar to decision tree but with more hyper-parameters
+-	Similar to decision tree but with **more hyper-parameters**
 -	**Forest 1**: 100 trees and depth = 10
 -	**Forest 2**: 1000 trees and depth = 10
 -	**Forest 3**: 100 trees and depth = 20
 -	The accuracy for the different forests was about the same at 55%, and shows a sign of over-fitting in the train data
 -	Tune to the optimal hyper-parameter using GridSearchCV, with 600 trees and depth = 7, accuracy improves but not significant (60%), over-fitting problem has reduced too
 -	Overall, it is the best ML technique to be used to predict the popularity as it produces the highest accuracy out of all the models we have tried.  
--	
+
 The top three attributes that affect the popularity: **artist_popularity, energy, loudness**
 
 ### [5. ML Technique 4: Kmeans Clustering](KMeans_Clustering.ipynb)
