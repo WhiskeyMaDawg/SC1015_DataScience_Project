@@ -21,7 +21,8 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 - Outliers were removed using the IQR method as the popularity response variable resembled a gaussian distribution
 
 
-### 2. ML Technique 1: Regression  
+### [2. ML Technique 1: Regression](Regression_Model.ipynb)
+
 
 ### [3. ML Technique 2: Decision Tree Classification](Decision_Tree_(Outliers_IQR).ipynb)  
 
@@ -34,10 +35,10 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 
 The top three song attributes that influenced popularity: **artist popularity, energy, loudness**
 
-### 4. ML Technique 3: Random Forest Classification  
+### [4. ML Technique 3: Random Forest Classification](Random_Forest_Classification.ipynb) 
 -https://towardsdatascience.com/3-techniques-to-avoid-overfitting-of-decision-trees-1e7d3d985a09#:~:text=Is%20your%20Decision%20Tree%20Overfitting,fails%20to%20capture%20important%20patterns.
 
-### 5. ML Technique 4: Kmeans Clustering
+### [5. ML Technique 4: Kmeans Clustering](KMeans_Clustering.ipynb)
 - Clusters from 1 to 40 ran and elbow plot visualised to determine the optimal number of clusters that reduces within sum of squares (WSS)
 - Cluster size of 5 chosen as it allowed for a steep decrease is WSS value
 - Songs with higher popularity have higher artist popularity
