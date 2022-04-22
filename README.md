@@ -30,12 +30,21 @@ Spotify stores a lot of songs data in its database. We make use of its Spotify A
 - Decision tree of depth 4, all song attributes, produced accuracy of 46%
 - Decision tree of depth 4, top three song attributes, produced accuracy of 55%
 - Decision tree of depth 6, top three song attributes, produced accuracy of 56%
-- Top three song attributes that influenced popularity: artist popularity, energy, loudness
+
+The top three song attributes that influenced popularity: **artist popularity, energy, loudness**
 
 #### ML Technique 3: Random Forest Classification  
 -https://towardsdatascience.com/3-techniques-to-avoid-overfitting-of-decision-trees-1e7d3d985a09#:~:text=Is%20your%20Decision%20Tree%20Overfitting,fails%20to%20capture%20important%20patterns.
 
-#### ML Technique 4: Kmeans Clustering  
+#### ML Technique 4: Kmeans Clustering
+- Clusters from 1 to 40 ran and elbow plot visualised to determine the optimal number of clusters that reduces within sum of squares (WSS)
+- Cluster size of 5 chosen as it allowed for a steep decrease is WSS value
+- Songs with higher popularity have higher artist popularity
+- Songs with higher popularity have slightly higher danceability
+- Songs with higher popularity also have slightly higher acousticness value
+- Songs with lower popularity has lower value of acousticness
+
+The **artist's popularity, danceability and acousticness** can increase a song's popularity.
 
 ### Conclusion and Recommendations  
 
