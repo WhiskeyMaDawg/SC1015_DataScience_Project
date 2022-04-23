@@ -80,3 +80,5 @@ The **artist's popularity and danceability** can increase a song's popularity.
 - https://newsroom.spotify.com/company-info/#:~:text=Today%2C%20Spotify%20is%20the%20world's,180m%20subscribers%2C%20across%20183%20markets.
 - https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/mean-squared-error/#:~:text=The%20mean%20squared%20error%20(MSE,to%20remove%20any%20negative%20signs.
 - https://towardsdatascience.com/3-techniques-to-avoid-overfitting-of-decision-trees-1e7d3d985a09#:~:text=Is%20your%20Decision%20Tree%20Overfitting,fails%20to%20capture%20important%20patterns.
+- https://plotly.com/python/radar-chart/
+- https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/
